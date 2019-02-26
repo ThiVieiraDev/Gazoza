@@ -1,5 +1,7 @@
 {
   "name": "Combustivel",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

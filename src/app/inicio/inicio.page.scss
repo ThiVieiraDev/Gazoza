@@ -1,0 +1,38 @@
+ion-content{
+  --background: firebrick;
+}
+.toolbar{
+  --background: firebrick;
+}
+ion-item{
+  --background: #ff00003d;
+  color: white;
+  width: 30vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  --border-radius: 20px;
+  --highlight-color-valid: white;
+}
+
+.input-wrapper{
+  text-align: center;
+}
+.logo{
+  position: relative;
+  margin: 10% auto 10% auto;
+  width: 30%;
+  height: 30%;
+}
+.botao_calcular{
+  color: white;
+  --border-color: white;
+  --color-activated: white;
+  margin: 10% auto auto auto;
+}
+ion-label{
+  color: white;
+  text-align: center;
+  margin: 10% auto auto auto;
+
+}

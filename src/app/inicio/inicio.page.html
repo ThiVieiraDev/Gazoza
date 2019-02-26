@@ -1,0 +1,30 @@
+<ion-header>
+    <ion-toolbar class="toolbar">
+        <h1 align="center" style="color: white">Gazoza</h1>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div>
+        <ion-row>
+            <img class="logo" src="../../assets/imgs/combustivel.png">
+        </ion-row>
+        <ion-row>
+            <ion-item>
+                <ion-label class="label" position="floating">Gasolina</ion-label>
+                <ion-input name="gasolina" class="gasolina" type="number" [(ngModel)]="vgasolina"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label class="label" position="floating">Etanol</ion-label>
+                <ion-input name="alcool" class="alcool" type="number" [(ngModel)]="valcool"></ion-input>
+            </ion-item>
+        </ion-row>
+        <ion-row>
+            <ion-button class="botao_calcular" shape="round" fill="outline" (click)="calcular()">Calcular</ion-button>
+        </ion-row>
+        <ion-row>
+            <ion-label>{{resultado2}} <br> <strong>{{resultado}}</strong> <br><br> {{conta}}</ion-label>
+        </ion-row>
+    </div>
+
+</ion-content>
